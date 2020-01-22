@@ -85,6 +85,12 @@
     <Compile Include="Master\Barang.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Transaksi\Barang Keluar.Designer.vb">
+      <DependentUpon>Barang Keluar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Transaksi\Barang Keluar.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Transaksi\Barang Masuk.Designer.vb">
       <DependentUpon>Barang Masuk.vb</DependentUpon>
     </Compile>
@@ -156,6 +162,9 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaksi\Barang Keluar.resx">
+      <DependentUpon>Barang Keluar.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Transaksi\Barang Masuk.resx">
       <DependentUpon>Barang Masuk.vb</DependentUpon>
