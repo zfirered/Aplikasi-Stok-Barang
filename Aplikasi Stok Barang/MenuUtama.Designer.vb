@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form1
+Partial Class MenuUtama
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -24,19 +24,19 @@ Partial Class Form1
     Private Sub InitializeComponent()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.GroupBox4 = New System.Windows.Forms.GroupBox()
+        Me.btn_lap_kartu_stok = New System.Windows.Forms.Button()
+        Me.btn_lap_keluar = New System.Windows.Forms.Button()
+        Me.btn_lap_masuk = New System.Windows.Forms.Button()
+        Me.btn_lap_master = New System.Windows.Forms.Button()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
+        Me.btn_tr_keluar = New System.Windows.Forms.Button()
+        Me.btn_tr_masuk = New System.Windows.Forms.Button()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.btn_customer = New System.Windows.Forms.Button()
         Me.btn_supplier = New System.Windows.Forms.Button()
         Me.btn_barang = New System.Windows.Forms.Button()
         Me.btn_user = New System.Windows.Forms.Button()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
-        Me.Button5 = New System.Windows.Forms.Button()
-        Me.Button6 = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox4.SuspendLayout()
         Me.GroupBox3.SuspendLayout()
@@ -49,19 +49,18 @@ Partial Class Form1
         Me.GroupBox1.Controls.Add(Me.GroupBox4)
         Me.GroupBox1.Controls.Add(Me.GroupBox3)
         Me.GroupBox1.Controls.Add(Me.GroupBox2)
-        Me.GroupBox1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.GroupBox1.Location = New System.Drawing.Point(0, 0)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(869, 502)
+        Me.GroupBox1.Size = New System.Drawing.Size(869, 128)
         Me.GroupBox1.TabIndex = 1
         Me.GroupBox1.TabStop = False
         '
         'GroupBox4
         '
-        Me.GroupBox4.Controls.Add(Me.Button6)
-        Me.GroupBox4.Controls.Add(Me.Button5)
-        Me.GroupBox4.Controls.Add(Me.Button4)
-        Me.GroupBox4.Controls.Add(Me.Button3)
+        Me.GroupBox4.Controls.Add(Me.btn_lap_kartu_stok)
+        Me.GroupBox4.Controls.Add(Me.btn_lap_keluar)
+        Me.GroupBox4.Controls.Add(Me.btn_lap_masuk)
+        Me.GroupBox4.Controls.Add(Me.btn_lap_master)
         Me.GroupBox4.Location = New System.Drawing.Point(530, 19)
         Me.GroupBox4.Name = "GroupBox4"
         Me.GroupBox4.Size = New System.Drawing.Size(330, 100)
@@ -69,16 +68,70 @@ Partial Class Form1
         Me.GroupBox4.TabStop = False
         Me.GroupBox4.Text = "Laporan"
         '
+        'btn_lap_kartu_stok
+        '
+        Me.btn_lap_kartu_stok.Location = New System.Drawing.Point(249, 19)
+        Me.btn_lap_kartu_stok.Name = "btn_lap_kartu_stok"
+        Me.btn_lap_kartu_stok.Size = New System.Drawing.Size(75, 75)
+        Me.btn_lap_kartu_stok.TabIndex = 5
+        Me.btn_lap_kartu_stok.Text = "Kartu Stok"
+        Me.btn_lap_kartu_stok.UseVisualStyleBackColor = True
+        '
+        'btn_lap_keluar
+        '
+        Me.btn_lap_keluar.Location = New System.Drawing.Point(168, 19)
+        Me.btn_lap_keluar.Name = "btn_lap_keluar"
+        Me.btn_lap_keluar.Size = New System.Drawing.Size(75, 75)
+        Me.btn_lap_keluar.TabIndex = 4
+        Me.btn_lap_keluar.Text = "Keluar"
+        Me.btn_lap_keluar.UseVisualStyleBackColor = True
+        '
+        'btn_lap_masuk
+        '
+        Me.btn_lap_masuk.Location = New System.Drawing.Point(87, 19)
+        Me.btn_lap_masuk.Name = "btn_lap_masuk"
+        Me.btn_lap_masuk.Size = New System.Drawing.Size(75, 75)
+        Me.btn_lap_masuk.TabIndex = 3
+        Me.btn_lap_masuk.Text = "Masuk"
+        Me.btn_lap_masuk.UseVisualStyleBackColor = True
+        '
+        'btn_lap_master
+        '
+        Me.btn_lap_master.Location = New System.Drawing.Point(6, 19)
+        Me.btn_lap_master.Name = "btn_lap_master"
+        Me.btn_lap_master.Size = New System.Drawing.Size(75, 75)
+        Me.btn_lap_master.TabIndex = 2
+        Me.btn_lap_master.Text = "Master"
+        Me.btn_lap_master.UseVisualStyleBackColor = True
+        '
         'GroupBox3
         '
-        Me.GroupBox3.Controls.Add(Me.Button2)
-        Me.GroupBox3.Controls.Add(Me.Button1)
+        Me.GroupBox3.Controls.Add(Me.btn_tr_keluar)
+        Me.GroupBox3.Controls.Add(Me.btn_tr_masuk)
         Me.GroupBox3.Location = New System.Drawing.Point(354, 19)
         Me.GroupBox3.Name = "GroupBox3"
         Me.GroupBox3.Size = New System.Drawing.Size(170, 100)
         Me.GroupBox3.TabIndex = 1
         Me.GroupBox3.TabStop = False
         Me.GroupBox3.Text = "Transaksi Barang"
+        '
+        'btn_tr_keluar
+        '
+        Me.btn_tr_keluar.Location = New System.Drawing.Point(87, 19)
+        Me.btn_tr_keluar.Name = "btn_tr_keluar"
+        Me.btn_tr_keluar.Size = New System.Drawing.Size(75, 75)
+        Me.btn_tr_keluar.TabIndex = 1
+        Me.btn_tr_keluar.Text = "Keluar"
+        Me.btn_tr_keluar.UseVisualStyleBackColor = True
+        '
+        'btn_tr_masuk
+        '
+        Me.btn_tr_masuk.Location = New System.Drawing.Point(6, 19)
+        Me.btn_tr_masuk.Name = "btn_tr_masuk"
+        Me.btn_tr_masuk.Size = New System.Drawing.Size(75, 75)
+        Me.btn_tr_masuk.TabIndex = 0
+        Me.btn_tr_masuk.Text = "Masuk"
+        Me.btn_tr_masuk.UseVisualStyleBackColor = True
         '
         'GroupBox2
         '
@@ -132,74 +185,20 @@ Partial Class Form1
         'PictureBox1
         '
         Me.PictureBox1.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.PictureBox1.Location = New System.Drawing.Point(0, 212)
+        Me.PictureBox1.Location = New System.Drawing.Point(0, 134)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(869, 290)
+        Me.PictureBox1.Size = New System.Drawing.Size(873, 368)
         Me.PictureBox1.TabIndex = 2
         Me.PictureBox1.TabStop = False
         '
-        'Button1
-        '
-        Me.Button1.Location = New System.Drawing.Point(6, 19)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 75)
-        Me.Button1.TabIndex = 0
-        Me.Button1.Text = "Button1"
-        Me.Button1.UseVisualStyleBackColor = True
-        '
-        'Button2
-        '
-        Me.Button2.Location = New System.Drawing.Point(87, 19)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 75)
-        Me.Button2.TabIndex = 1
-        Me.Button2.Text = "Button2"
-        Me.Button2.UseVisualStyleBackColor = True
-        '
-        'Button3
-        '
-        Me.Button3.Location = New System.Drawing.Point(6, 19)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(75, 75)
-        Me.Button3.TabIndex = 2
-        Me.Button3.Text = "Button3"
-        Me.Button3.UseVisualStyleBackColor = True
-        '
-        'Button4
-        '
-        Me.Button4.Location = New System.Drawing.Point(87, 19)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(75, 75)
-        Me.Button4.TabIndex = 3
-        Me.Button4.Text = "Button4"
-        Me.Button4.UseVisualStyleBackColor = True
-        '
-        'Button5
-        '
-        Me.Button5.Location = New System.Drawing.Point(168, 19)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(75, 75)
-        Me.Button5.TabIndex = 4
-        Me.Button5.Text = "Button5"
-        Me.Button5.UseVisualStyleBackColor = True
-        '
-        'Button6
-        '
-        Me.Button6.Location = New System.Drawing.Point(249, 19)
-        Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(75, 75)
-        Me.Button6.TabIndex = 5
-        Me.Button6.Text = "Button6"
-        Me.Button6.UseVisualStyleBackColor = True
-        '
-        'Form1
+        'MenuUtama
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(869, 502)
+        Me.ClientSize = New System.Drawing.Size(873, 502)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.GroupBox1)
-        Me.Name = "Form1"
+        Me.Name = "MenuUtama"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Menu Utama"
         Me.GroupBox1.ResumeLayout(False)
@@ -220,10 +219,10 @@ Partial Class Form1
     Friend WithEvents btn_supplier As Button
     Friend WithEvents btn_barang As Button
     Friend WithEvents btn_user As Button
-    Friend WithEvents Button6 As Button
-    Friend WithEvents Button5 As Button
-    Friend WithEvents Button4 As Button
-    Friend WithEvents Button3 As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button1 As Button
+    Friend WithEvents btn_lap_kartu_stok As Button
+    Friend WithEvents btn_lap_keluar As Button
+    Friend WithEvents btn_lap_masuk As Button
+    Friend WithEvents btn_lap_master As Button
+    Friend WithEvents btn_tr_keluar As Button
+    Friend WithEvents btn_tr_masuk As Button
 End Class
