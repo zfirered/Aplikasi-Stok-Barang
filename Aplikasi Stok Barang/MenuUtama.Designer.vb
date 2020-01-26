@@ -185,9 +185,9 @@ Partial Class MenuUtama
         'PictureBox1
         '
         Me.PictureBox1.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.PictureBox1.Location = New System.Drawing.Point(0, 134)
+        Me.PictureBox1.Location = New System.Drawing.Point(0, 129)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(873, 368)
+        Me.PictureBox1.Size = New System.Drawing.Size(866, 368)
         Me.PictureBox1.TabIndex = 2
         Me.PictureBox1.TabStop = False
         '
@@ -195,7 +195,7 @@ Partial Class MenuUtama
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(873, 502)
+        Me.ClientSize = New System.Drawing.Size(866, 497)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.GroupBox1)
         Me.Name = "MenuUtama"

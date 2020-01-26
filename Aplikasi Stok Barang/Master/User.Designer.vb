@@ -33,16 +33,16 @@ Partial Class User
         Me.cmb_status = New System.Windows.Forms.ComboBox()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
-        Me.GroupBox3 = New System.Windows.Forms.GroupBox()
         Me.GroupBox4 = New System.Windows.Forms.GroupBox()
-        Me.btn_simpan = New System.Windows.Forms.Button()
-        Me.btn_hapus = New System.Windows.Forms.Button()
         Me.btn_batal = New System.Windows.Forms.Button()
+        Me.btn_hapus = New System.Windows.Forms.Button()
+        Me.btn_simpan = New System.Windows.Forms.Button()
+        Me.GroupBox3 = New System.Windows.Forms.GroupBox()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
-        Me.GroupBox3.SuspendLayout()
         Me.GroupBox4.SuspendLayout()
+        Me.GroupBox3.SuspendLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -144,16 +144,6 @@ Partial Class User
         Me.GroupBox2.TabIndex = 10
         Me.GroupBox2.TabStop = False
         '
-        'GroupBox3
-        '
-        Me.GroupBox3.Controls.Add(Me.txt_cari_data)
-        Me.GroupBox3.Location = New System.Drawing.Point(270, 19)
-        Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Size = New System.Drawing.Size(112, 52)
-        Me.GroupBox3.TabIndex = 0
-        Me.GroupBox3.TabStop = False
-        Me.GroupBox3.Text = "Cari Data"
-        '
         'GroupBox4
         '
         Me.GroupBox4.Controls.Add(Me.btn_batal)
@@ -166,14 +156,14 @@ Partial Class User
         Me.GroupBox4.TabStop = False
         Me.GroupBox4.Text = "Proses"
         '
-        'btn_simpan
+        'btn_batal
         '
-        Me.btn_simpan.Location = New System.Drawing.Point(6, 19)
-        Me.btn_simpan.Name = "btn_simpan"
-        Me.btn_simpan.Size = New System.Drawing.Size(75, 23)
-        Me.btn_simpan.TabIndex = 0
-        Me.btn_simpan.Text = "Simpan"
-        Me.btn_simpan.UseVisualStyleBackColor = True
+        Me.btn_batal.Location = New System.Drawing.Point(168, 19)
+        Me.btn_batal.Name = "btn_batal"
+        Me.btn_batal.Size = New System.Drawing.Size(75, 23)
+        Me.btn_batal.TabIndex = 2
+        Me.btn_batal.Text = "Batal"
+        Me.btn_batal.UseVisualStyleBackColor = True
         '
         'btn_hapus
         '
@@ -184,14 +174,24 @@ Partial Class User
         Me.btn_hapus.Text = "Hapus"
         Me.btn_hapus.UseVisualStyleBackColor = True
         '
-        'btn_batal
+        'btn_simpan
         '
-        Me.btn_batal.Location = New System.Drawing.Point(168, 19)
-        Me.btn_batal.Name = "btn_batal"
-        Me.btn_batal.Size = New System.Drawing.Size(75, 23)
-        Me.btn_batal.TabIndex = 2
-        Me.btn_batal.Text = "Batal"
-        Me.btn_batal.UseVisualStyleBackColor = True
+        Me.btn_simpan.Location = New System.Drawing.Point(6, 19)
+        Me.btn_simpan.Name = "btn_simpan"
+        Me.btn_simpan.Size = New System.Drawing.Size(75, 23)
+        Me.btn_simpan.TabIndex = 0
+        Me.btn_simpan.Text = "Simpan"
+        Me.btn_simpan.UseVisualStyleBackColor = True
+        '
+        'GroupBox3
+        '
+        Me.GroupBox3.Controls.Add(Me.txt_cari_data)
+        Me.GroupBox3.Location = New System.Drawing.Point(270, 19)
+        Me.GroupBox3.Name = "GroupBox3"
+        Me.GroupBox3.Size = New System.Drawing.Size(112, 52)
+        Me.GroupBox3.TabIndex = 0
+        Me.GroupBox3.TabStop = False
+        Me.GroupBox3.Text = "Cari Data"
         '
         'DataGridView1
         '
@@ -212,14 +212,14 @@ Partial Class User
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "User"
-        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "User"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
         Me.GroupBox2.ResumeLayout(False)
+        Me.GroupBox4.ResumeLayout(False)
         Me.GroupBox3.ResumeLayout(False)
         Me.GroupBox3.PerformLayout()
-        Me.GroupBox4.ResumeLayout(False)
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
